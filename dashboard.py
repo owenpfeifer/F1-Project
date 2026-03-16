@@ -1,4 +1,11 @@
 import streamlit as st
+import fastf1
+from fastf1.plotting import *
+import plotly.express
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+import warnings
 
 # Setup the page configuration
 st.set_page_config(
